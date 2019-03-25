@@ -1,0 +1,11 @@
+{
+  "name": "shiny-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/darkcl/shiny-js.git",
+  "author": "Yeung Yiu Hung <hkclex@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "shiny": "./bin/shiny.js"
+  }
+}
