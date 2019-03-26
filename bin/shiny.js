@@ -18,7 +18,7 @@ if (args.length !== 0) {
 
     number++;
 
-    console.log(`Hunting ${huntProgress} for ${number} times`);
+    console.log(`Hunting ${args[0]} for ${number} times`);
 
     fs.writeFileSync(huntProgress, `${number}`);
   }
